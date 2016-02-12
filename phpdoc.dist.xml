@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>Google Analytics - Measurement Protocol</title>
+	<parser>
+		<target>output</target>
+	</parser>
+	<transformer>
+		<target>output</target>
+	</transformer>
+	<files>
+		<directory>packages/cstruter-analytics</directory>
+	</files>
+</phpdoc>

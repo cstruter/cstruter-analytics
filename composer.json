@@ -1,0 +1,26 @@
+{
+	"name" : "Analytics Measurement Protocol",
+	"description" : "PHP Google's Analytics Measurement Protocol Test Demo",
+	"version" : "0.1.0",
+	"repositories": [
+		{
+			"type" : "path",
+			"url" : "packages/cstruter-analytics"
+		}		
+	],
+	"require": {
+		"CSTruter/Analytics" : "0.1.0"
+	},
+	"require-dev": {
+		"phpdocumentor/phpdocumentor" :"2.*",
+        "phpunit/phpunit": "4.5.0"
+    },
+	"autoload": {
+        "psr-0": {
+            "Test": ""
+        },
+		"files": [
+			"config.php"
+		]
+    }
+}
